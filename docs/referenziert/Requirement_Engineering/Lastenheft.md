@@ -5,10 +5,11 @@
 ## 3. Das System zeigt den aktuellen Status an
   - Warnung/Hinweis während Betrieb
   - Betonen von Systembereitschaft bei Bereitschaft
-## 4. Das System fängt falsche oder gefährliche Winkeleingaben ab
-  - Ausgabe von Warnungen und Hinweisen
-## 5. Das System verfügt über einen Notaus-Schalter
-## 6. Das System setzt den Winkel auf eine sichere Position beim Ausschalten
+## 4. Das System blockiert falsche Winkeleingaben
+  - Ausgabe von Warnungen und Hinweisen als Folge
+## 5. Das System setzt den Winkel auf eine sichere Position beim Ausschalten
   - Verhindern von Verletzungen des Benutzers
-## 7. Das System kalibriert sich beim Start
-  - Nullwinkel wird festgelegt
+## 6. Das System kalibriert sich beim Start
+  - Beim Starten soll der Nullwinkel kalibriert werden
+  - Hinweis bei Abnutzung des Schleifprofils
+## 7. Das System passt den Winkel bei Ungenauigkeiten selbst an
