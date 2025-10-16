@@ -26,4 +26,6 @@
  6.1 Beim Ausschalten des Systems wird der Winkel auf einen   sicheren Wert gesetzt
  
  6.2 Das System schaltet sich nach 3 Minuten Inaktivität selbst aus
+## 7. Autokorrektur des Winkels
+ 7.1 Wenn der Ist-Wert um mehr als einen Grad vom Soll-Wert abweicht wird der Winkel entsprechend angepasst
 
