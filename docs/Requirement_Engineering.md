@@ -6,3 +6,9 @@
  5. Fehlerbehandlung
  6. Sicherheitsfeatures
 
+# Lasten- und Pflichtenheft
+
+[Lastenheft](https://github.com/Nutellabrot06/Messerschaerfer-Schleifwinkelsteuerung/blob/main/docs/referenziert/Requirement_Engineering/Lastenheft.md)
+
+[Pflichtenheft](https://github.com/Nutellabrot06/Messerschaerfer-Schleifwinkelsteuerung/blob/main/docs/referenziert/Requirement_Engineering/Pflichtenheft.md)
+
