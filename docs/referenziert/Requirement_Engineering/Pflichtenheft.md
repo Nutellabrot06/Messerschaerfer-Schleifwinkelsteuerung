@@ -9,7 +9,7 @@
  2.1 Der Sollwert soll mit einer Genauigkeit von +-0.5Grad   eingehalten werden
  
  2.2 Jeder zulässige Winkel soll in <1 Sekunde erreicht werden
-## 3. UI
+## 3. Anzeige und Bedienung
  3.1 Der aktuelle Winkel wird auf einem 30Hz Display dargestellt
  
  3.2 Der Nutzer kann den gewünschten Winkel per Slider eingeben
