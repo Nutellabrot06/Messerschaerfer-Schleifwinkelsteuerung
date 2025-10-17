@@ -3,8 +3,7 @@
  2. Ansteuerung der Mechanik
  3. Anzeige und Bedienung
  4. POST
- 5. Fehlerbehandlung
- 6. Sicherheitsfeatures
+ 5. Sicherheitsfeatures
 
 # Lasten- und Pflichtenheft
 
