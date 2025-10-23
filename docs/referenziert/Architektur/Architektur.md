@@ -34,7 +34,7 @@ style PER fill:#f4e6ff,stroke:#8e44ad,stroke-width:2px
 
 ### Aufgaben der Komponenten:
 
-| Komonente | Rolle | Aufgaben |
+| Komponente | Rolle | Aufgaben |
 | --- | --- | --- |
 | UI | Präsentationschicht | Zustandsanzeige, Nutzereingabe |
 | Systemlogik | Anwendungsschicht | Systemverhalten |
@@ -42,7 +42,16 @@ style PER fill:#f4e6ff,stroke:#8e44ad,stroke-width:2px
 | HardwareAbstraction | Hardware-Interface | Sensoren |
 | PersistenceManager | Speicherschicht | Kalibrierung, Limits, Inaktivitätszeit |
 
-### Technologiestack
+### Schnittstellen:
+
+| Quelle | Ziel | Schnittstelle |
+| --- | --- | --- |
+| UI | Systemlogik | setInput(), getWarning(), getUpdate() |
+| Systemlogik | Winkellogik | setAngle(), startCalibration(), getState() |
+| Winkellogik | HardwareAbstraction | getCurrentAngle(), applyMotorChange(), correctAngle()
+| HardwareAbstraction | PersistenceManager | readData(), writeData(), logEvent() |
+
+### Technologiestack:
 
 | Kategorie | Technologie | Begründung |
 | --- | --- | --- |
