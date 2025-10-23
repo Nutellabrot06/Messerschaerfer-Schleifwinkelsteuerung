@@ -2,24 +2,24 @@
 
 | ID | Tracking | Komponente | Klasse | Testfall |
 | --- | --- | --- | --- | --- |
-| F1.1 |  |  |  |  |
-| F1.2 |  |  |  |  |
-| F1.3 |  |  |  |  |
-| F2.1 |  |  |  |  |
-| F2.2 |  |  |  |  |
-| F3.1 |  |  |  |  |
-| F3.2 |  |  |  |  |
-| F3.3 |  |  |  |  |
-| F3.4 |  |  |  |  |
-| F4.1 |  |  |  |  |
-| F4.2 |  |  |  |  |
-| F5.1 |  |  |  |  |
-| F5.2 |  |  |  |  |
+| F1.1 |  | HardwareAbstraction |  |  |
+| F1.2 |  | HardwareAbstraction |  |  |
+| F1.3 |  | Winkellogik |  |  |
+| F2.1 |  | UI |  |  |
+| F2.2 |  | Winkellogik |  |  |
+| F3.1 |  | UI |  |  |
+| F3.2 |  | UI |  |  |
+| F3.3 |  | UI |  |  |
+| F3.4 |  | UI |  |  |
+| F4.1 |  | Systemlogik |  |  |
+| F4.2 |  | Winkellogik |  |  |
+| F5.1 |  | Systemlogik |  |  |
+| F5.2 |  | Systemlogik |  |  |
 | --- | --- | --- | --- | --- |
-| NF1.1 |  |  |  |  |
-| NF1.2 |  |  |  |  |
-| NF2.1 |  |  |  |  |
-| NF3.1 |  |  |  |  |
-| NF3.2 |  |  |  |  |
-| NF4.1 |  |  |  |  |
-| NF5.1 |  |  |  |  |
+| NF1.1 |  | HardwareAbstraction |  |  |
+| NF1.2 |  | HardwareAbstraction |  |  |
+| NF2.1 |  | Winkellogik |  |  |
+| NF3.1 |  | UI |  |  |
+| NF3.2 |  | UI |  |  |
+| NF4.1 |  | Systemlogik |  |  |
+| NF5.1 |  | PersistenceManager |  |  |
