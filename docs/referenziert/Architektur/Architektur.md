@@ -24,13 +24,13 @@ style PER fill:#f4e6ff,stroke:#8e44ad,stroke-width:2px
 ```
 ### Zuordnung Requirements:
 
-| Komonente | Rquiremnt |
-| --- | --- |
-| UI | F2.1, F3.1, F3.2, F3.3, F3.4, NF3.1, NF3.2 |
-| Systemlogik | F4.1, F5.1, F5.2, NF4.1 |
-| Winkellogik | F1.3, F2.2, F4.2, NF2.1 |
-| HardwareAbstraction | F1.1, F1.2, NF1.1, NF1.2 |
-| PersistenceManager | NF5.1 |
+| Komonente | Rquiremnt | Tracking |
+| --- | --- | --- |
+| UI | F2.1, F3.1, F3.2, F3.3, F3.4, NF3.1, NF3.2 | TC |
+| Systemlogik | F4.1, F5.1, F5.2, NF4.1 | TC | 
+| Winkellogik | F1.3, F2.2, F4.2, NF2.1 | TC |
+| HardwareAbstraction | F1.1, F1.2, NF1.1, NF1.2 | TC |
+| PersistenceManager | NF5.1 | TC |
 
 ### Aufgaben der Komponenten:
 
@@ -40,7 +40,17 @@ style PER fill:#f4e6ff,stroke:#8e44ad,stroke-width:2px
 | Systemlogik | Anwendungsschicht | Systemverhalten |
 | Winkellogik | Domänenschicht | Winkelsteuerung |
 | HardwareAbstraction | Hardware-Interface | Sensoren |
-| PersistenceManager | Speicherschicht | Kalibrierung, Limits |
+| PersistenceManager | Speicherschicht | Kalibrierung, Limits, Inaktivitätszeit |
+
+### Technologiestack
+
+| Kategorie | Technologie | Begründung |
+| --- | --- | --- |
+| Sprache | C++ | Erfahrung, hardwarenahes Programmieren |
+| VCS | Git + Github | Standard |
+| Tracking | Jira | Erfahrungen sammeln |
+| IDE | CLion | Erfahrung |
+| Dokumentation | Markdown | simpel, agil |
 
 
 
