@@ -21,9 +21,15 @@ style PER fill:#f4e6ff,stroke:#8e44ad,stroke-width:2px
 
 ```
 
+### Bezug der Komponenten:
+
+UI                  -> Winkellogik:         Weitergabe von Userinputs
+Winkellogik         -> HardwareAbstraction: Ansteuerung der Mechanik
+HardwareAbstraction -> PersistenceManager:  Log Events
+
 ### Zuordnung Requirements:
 
-| Komonente | Rquiremnt | Tracking |
+| Komponente | Requirement | Tracking |
 | --- | --- | --- |
 | UI | F2.1, F3.1, F3.2, F3.3, F3.4, NF3.1, NF3.2 | TC |
 | Winkellogik | F1.3, F2.2, F4.1, F4.2, F5.1, F5.2, NF2.1, NF4.1 | TC |
@@ -46,6 +52,9 @@ style PER fill:#f4e6ff,stroke:#8e44ad,stroke-width:2px
 | UI | Winkellogik | setAngle(), getWarning(), getUpdate(), startCalibration(), getState() |
 | Winkellogik | HardwareAbstraction | getCurrentAngle(), applyMotorChange(), correctAngle() |
 | HardwareAbstraction | PersistenceManager | readData(), writeData(), logEvent() |
+
+Synchron:  setAngle(), getWarning(), getUpdate(), startCalibration(), getCurrentAngle()
+Asynchron: startCalibration(), applyMotorChange(), correctAngle(), writeData(), logEvent()
 
 ### Technologiestack:
 
