@@ -24,7 +24,9 @@ style PER fill:#f4e6ff,stroke:#8e44ad,stroke-width:2px
 ### Bezug der Komponenten:
 
 UI                  -> Winkellogik:         Weitergabe von Userinputs
+
 Winkellogik         -> HardwareAbstraction: Ansteuerung der Mechanik
+
 HardwareAbstraction -> PersistenceManager:  Log Events
 
 ### Zuordnung Requirements:
@@ -54,6 +56,7 @@ HardwareAbstraction -> PersistenceManager:  Log Events
 | HardwareAbstraction | PersistenceManager | readData(), writeData(), logEvent() |
 
 Synchron:  setAngle(), getWarning(), getUpdate(), startCalibration(), getCurrentAngle()
+
 Asynchron: startCalibration(), applyMotorChange(), correctAngle(), writeData(), logEvent()
 
 ### Technologiestack:
