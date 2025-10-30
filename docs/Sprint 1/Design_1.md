@@ -4,13 +4,13 @@ Mit Hilfe der folgenden Diagramme werden sowohl die Eigenschaften der einzelnen 
 
 ## Klassendiagramm: 
 
-![Klassendiagramm](https://github.com/Nutellabrot06/Messerschaerfer-Schleifwinkelsteuerung/tree/main/docs/referenziert/Design/Klassendiagramm.png)
+![Klassendiagramm](https://github.com/Nutellabrot06/Messerschaerfer-Schleifwinkelsteuerung/blob/main/docs/referenziert/Design/Klassendiagramm.png)
 
 ## Sequenzdiagramm:
 
-![Sequenzdiagramm](https://github.com/Nutellabrot06/Messerschaerfer-Schleifwinkelsteuerung/tree/main/docs/referenziert/Design/Sequenzdiagramm.png)
+![Sequenzdiagramm](https://github.com/Nutellabrot06/Messerschaerfer-Schleifwinkelsteuerung/blob/main/docs/referenziert/Design/Sequenzdiagramm.png)
 
 ## Kommunikationsdiagramm:
 
-![Kommunikationsdiagramm](https://github.com/Nutellabrot06/Messerschaerfer-Schleifwinkelsteuerung/tree/main/docs/referenziert/Design/Kommunikationsdiagramm.png)
+![Kommunikationsdiagramm](https://github.com/Nutellabrot06/Messerschaerfer-Schleifwinkelsteuerung/blob/main/docs/referenziert/Design/Kommunikationsdiagramm.png)
 
