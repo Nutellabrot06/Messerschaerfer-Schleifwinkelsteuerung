@@ -10,7 +10,7 @@
 
 | Nummer | Tracking | Requirement | Details |
 | --- | --- | --- | --- |
-| F1.1 | CTR-1 | Einlesung des Winkels als Gradwert | Erfassung des Winkels mit einer Genauigkeit von +-0.5° |
+| F1.1 | CTR-1 | Auslesung des Winkels als Gradwert | Erfassung des Winkels mit einer Genauigkeit von +-0.5° |
 | F1.2 | CTR-2 | Meldung eines Sensorfehlers | Bei Ausfall eines Sensors wird eine Warnung ausgegeben |
 | F1.3 | CTR-3 | Abweichungsmessung | Die Abweichung vom Ist- zum Sollwert wird gemessen |
 | F2.1 | CTR-4 | Sollwert einstellen | Einstellung aller Winkel |
