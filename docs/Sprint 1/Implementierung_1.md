@@ -1,7 +1,7 @@
 ## Implementierung
 
 | ID | Tracking | Komponente | Klasse | Methoden | Sprint | Status | Testfall |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- |
 | F1.1 | CTR-1 | HardwareAbstraction | Sensor | readAngle() | 1 | Implementiert | MTF1 |
 | F1.2 | CTR-2 | HardwareAbstraction | Sensor | checkSensorStatus() | 1 | Implementiert |  |
 | F1.3 | CTR-3 | Winkellogik | AngleCorrection | checkDeviation() | 1 | Implementiert | MTF2 |

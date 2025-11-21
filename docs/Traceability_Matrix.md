@@ -1,7 +1,7 @@
 ## Traceability-Matrix:
 
 | ID | Tracking | Komponente | Klasse | Methoden | Sprint | Status | Testfall |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- |
 | F1.1 | CTR-1 | HardwareAbstraction | Sensor | readAngle() | 1 | Implementiert | MTF1 |
 | F1.2 | CTR-2 | HardwareAbstraction | Sensor | checkSensorStatus() | 1 | Implementiert |  |
 | F1.3 | CTR-3 | Winkellogik | AngleCorrection | checkDeviation() | 1 | Implementiert | MTF2 |
@@ -15,7 +15,7 @@
 | F4.2 | CTR-8 | Winkellogik | CalibrationManager | startCalibration(), calculateOffset(), applyCalibration() | 1 | Implementiert | ITF2 |
 | F5.1 |  | HardwareAbstraction | MotorController |  |  | Ausstehend |  |
 | F5.2 |  | HardwareAbstraction | MotorController |  |  | Ausstehend |  |
-| --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- |
 | NF1.1 |  | HardwareAbstraction | Sensor |  |  | Ausstehend |  |
 | NF1.2 |  | HardwareAbstraction | MotorController |  |  | Ausstehend |  |
 | NF2.1 |  | Winkellogik | AngleControl |  |  | Ausstehend |  |
