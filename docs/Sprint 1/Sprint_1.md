@@ -1,4 +1,4 @@
-## Sprint 1 Planung:
+## Sprint 1:
 
 ### 1) Requirements:
 Der Fokus in Sprint 1 liegt auf der Implementierung notwendiger Requirements, sodass die Grundfunktionalitäten des Projekts gegeben sind und weitere (nicht-funktionale) Requirements in folgenden Sprints problemlos umgesetzt werden können. Folgende Requiremmnts werden in Sprint 1 implementiert:
@@ -29,3 +29,25 @@ Die aufgearbeiteten Grundlagen des Designs werden in diesem Sprint verfeinert un
 
 ### 5) Tests:
 [Tests](https://github.com/Nutellabrot06/Messerschaerfer-Schleifwinkelsteuerung/blob/main/docs/Sprint%201/Test.md)
+
+### 6) Retrospektive:
+
+Die Schichtenarchitektur als Grundlage wurde bei der Implementierung eingehalten, aber bei der Implementierung des Klassendiagramms wurden während der Bearbeitung einige Änderungen vorgenommen um das Programm übersichtlicher, wie auch besser zu implementieren zu machen. Folgende Änderungen wurden vorgenommen:
+    
+    Winkellogik:         - Schnittstelle readAngle() von CalibrationManager entfernt
+                         - targetAngle wie auch currentAngle aus AngleControl wurden global implementiert
+    HardwareAbstraction: - currentMotorPos von MotorController als globale Variable implementiert (s. AngleControl)
+
+Folgende Änderungen werden bezüglich des Klassendiagramms in Vorbereitung auf Sprint 2 durchgeführt:
+
+    UI:                  - Entfernen von UI_StatusHandler und Integration dieser Funktionen in UI_Display
+                         - Entfernen der damit einhergehenden Schnittstelle notifyUI()
+                         - Status und Warning global implementieren aus UI_Display
+                         - showStatus() und showWarning() in updateDisplay() integrieren in UI_Display
+    Winkellogik:         - Entfernen von notifyUI() in AngleCorrection
+                         - correctAngle() ruft updateControlLoop() als Schnittstelle auf, nicht direkt den MotorController
+    HardwareAbstraction: - Entfernen von filterSignal(), da es unnötig ist im Kontext des Geräts
+                         - Implementieren des Proxys für den MotorController und entsprechendes anpassen der Schnittstellen
+
+Oben genannte Abänderungen des Softwaredesigns, sowie der Software-Architektur werden in den entsprechenden Dokumenten zu Sprint 2 überarbeitet als Grundlage dienen um von dort an weiter zu implementieren. Somit wurden unnötig komplizierte Funktionen/Klassen vereinfacht ohne Funktion zu verlieren, was für einfachere Implementierung in Sprint 2 sorgen wird.
+    
