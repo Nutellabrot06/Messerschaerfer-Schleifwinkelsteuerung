@@ -49,5 +49,7 @@ Folgende Änderungen werden bezüglich des Klassendiagramms in Vorbereitung auf 
     HardwareAbstraction: - Entfernen von filterSignal(), da es unnötig ist im Kontext des Geräts
                          - Implementieren des Proxys für den MotorController und entsprechendes anpassen der Schnittstellen
 
+Zudem werden die Variablen, welche global integriert wurden in Sprint 1 zurück in die entsprechenden Klassen geschoben, sodass ein auf Dauer sauberer, gut testbarer Code entsteht.
+
 Oben genannte Abänderungen des Softwaredesigns, sowie der Software-Architektur werden in den entsprechenden Dokumenten zu Sprint 2 überarbeitet als Grundlage dienen um von dort an weiter zu implementieren. Somit wurden unnötig komplizierte Funktionen/Klassen vereinfacht ohne Funktion zu verlieren, was für einfachere Implementierung in Sprint 2 sorgen wird.
     
