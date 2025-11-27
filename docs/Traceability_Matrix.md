@@ -6,7 +6,7 @@
 | F1.2 | CTR-2 | HardwareAbstraction | Sensor | checkSensorStatus() | 1 | Implementiert |  |
 | F1.3 | CTR-3 | Winkellogik | AngleCorrection | checkDeviation() | 1 | Implementiert | MTF2 |
 | F2.1 | CTR-4 | Winkellogik, HardwareAbstraction | AngleControl, MotorController | calculateMotorCommand(), regulateAngle(), updateControlLoop(), moveToAngle() | 1 | Implementiert | ITF1, ITF3 |
-| F2.2 |  | Winkellogik | AngleCorrection |  |  |  | Ausstehend |
+| F2.2 |  | Winkellogik | AngleCorrection |  |  | Ausstehend |  |
 | F3.1 | CTR-5 | UI | UI_Display | updateDisplay(), showStatus(), showWarning(), refreshScreen() | 1 | Teilweise | MTF3 |
 | F3.2 | CTR-6 | UI | UI_Input | readSliderInput(), onSliderChange(), sendTargetAngle() | 1 | Implementiert | ITF1 |
 | F3.3 |  | UI | UI_StatusHandler |  |  | Ausstehend |  |
