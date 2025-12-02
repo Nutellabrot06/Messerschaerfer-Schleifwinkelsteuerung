@@ -10,7 +10,7 @@
 
 | Nummer | Tracking | Requirement | Details |
 | --- | --- | --- | --- |
-| F1.1 | CTR-1 | Einlesung des Winkels als Gradwert | Erfassung des Winkels mit einer Genauigkeit von +-0.5° |
+| F1.1 | CTR-1 | Auslesung des Winkels als Gradwert | Erfassung des Winkels mit einer Genauigkeit von +-0.5° |
 | F1.2 | CTR-2 | Meldung eines Sensorfehlers | Bei Ausfall eines Sensors wird eine Warnung ausgegeben |
 | F1.3 | CTR-3 | Abweichungsmessung | Die Abweichung vom Ist- zum Sollwert wird gemessen |
 | F2.1 | CTR-4 | Sollwert einstellen | Einstellung aller Winkel |
@@ -22,7 +22,7 @@
 | F4.1 | CTR-7 | Selbsttest | Prüfung der Komponenten in <5 Sekunden|
 | F4.2 | CTR-8 | Nullwinkelkalibrierung | Kalibrieriung des Nullwinkels mit +-0.2° in <5 Sekunden |
 | F5.1 |  | Inaktivitätsschaltung | Ausschalten nach 3 Minuten Inaktivität |
-| F5.2 |  | Sichere Positon nach Ausschalten | Winkel auf 40° beim Ausschalten |
+| F5.2 |  | Sichere Positon nach Ausschalten | Winkel auf 0° beim Ausschalten |
 
 ## Nicht-funktionale Requirements
 

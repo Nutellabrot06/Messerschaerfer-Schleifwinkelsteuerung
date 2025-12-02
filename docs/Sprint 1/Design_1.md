@@ -13,4 +13,3 @@ Mit Hilfe der folgenden Diagramme werden sowohl die Eigenschaften der einzelnen 
 ## Kommunikationsdiagramm:
 
 ![Kommunikationsdiagramm](https://github.com/Nutellabrot06/Messerschaerfer-Schleifwinkelsteuerung/blob/main/docs/referenziert/Design/Kommunikationsdiagramm.png)
-
