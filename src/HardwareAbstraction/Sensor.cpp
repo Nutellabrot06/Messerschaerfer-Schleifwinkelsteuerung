@@ -1,18 +1,11 @@
 #include "Sensor.h"
 
 float Sensor::readAngle() {
-    rawValue = sensorValue;
-    filteredValue = filterSignal(rawValue);
-    return filteredValue;
-}
-
-float Sensor::filterSignal(float rawValue) {
-    AngleControl::getInstance().setCurrentAngle(rawValue);
-    return rawValue;
+    return sensorValue;
 }
 
 bool Sensor::checkSensorStatus() {
-    if (rawValue < -180.0f || rawValue > 180.0f) {
+    if (sensorValue < -180.0f || sensorValue > 180.0f) {
         std::cout << "Sensorfehler erkannt!" << std::endl;
         return false;
     }

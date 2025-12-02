@@ -28,7 +28,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f73e06d0-a1f6-4c24-8a7e-154468194868" name="Changes" comment="Sprint 2 Implementierung" />
+    <list default="true" id="f73e06d0-a1f6-4c24-8a7e-154468194868" name="Changes" comment="Sprint 2 Implementierung">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HardwareAbstraction/MotorController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/HardwareAbstraction/MotorController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HardwareAbstraction/Sensor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/HardwareAbstraction/Sensor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HardwareAbstraction/Sensor.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/HardwareAbstraction/Sensor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,6 +126,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -151,7 +162,8 @@
       <workItem from="1763766314888" duration="7000" />
       <workItem from="1763998267053" duration="4556000" />
       <workItem from="1764003391010" duration="1087000" />
-      <workItem from="1764707319087" duration="6876000" />
+      <workItem from="1764707319087" duration="7156000" />
+      <workItem from="1764716138599" duration="443000" />
     </task>
     <task id="LOCAL-00001" summary="Sprint 1 Implementierung">
       <option name="closed" value="true" />
@@ -169,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764714216104</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Sprint 2 Implementierung">
+      <option name="closed" value="true" />
+      <created>1764714270115</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764714270115</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

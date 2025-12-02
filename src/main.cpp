@@ -21,6 +21,8 @@ int main() {
 
     while (true) {
         input.readSliderInput();
+        AngleControl::getInstance().registerActivity();
+
         correction.correctAngle();
 
         if (!sensor.checkSensorStatus()) {

@@ -1,10 +1,10 @@
 #include "MotorController.h"
 
 void MotorController::moveToAngle(float targetAngle) {
-    //Random Number um max 5 Sekunden Wartezeit zu simulieren
+    //Random Number um max 1 Sekunde Wartezeit zu simulieren
     std::random_device rd;
     std::mt19937 gen(rd());
-    std::uniform_real_distribution<> distribution(0, 5000);
+    std::uniform_real_distribution<> distribution(0, 1000);
 
     int wait = distribution(gen);
 

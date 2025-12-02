@@ -50,12 +50,16 @@ void AngleControl::stopInactivityWatcher() {
     }
 }
 
+void AngleControl::registerActivity() {
+    lastActivityTime = std::chrono::steady_clock::now();
+}
+
 void AngleControl::inactivityWatcher() {
     while (running) {
         auto now = std::chrono::steady_clock::now();
         auto inactiveSeconds = std::chrono::duration_cast<std::chrono::seconds>(now - lastActivityTime).count();
 
-        if (inactiveSeconds >= 5) {
+        if (inactiveSeconds >= 180) {
             UI_Display::getInstance().setWarning("Inaktivitaet, Motor wird ausgeschaltet");
             UI_Display::getInstance().updateDisplay();
             MotorController::getInstance().stopMotor();
