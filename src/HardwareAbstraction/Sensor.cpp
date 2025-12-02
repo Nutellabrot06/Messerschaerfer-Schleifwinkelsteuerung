@@ -1,18 +1,16 @@
 #include "Sensor.h"
-#include "../Values.h"
-#include <iostream>
 
 float Sensor::readAngle() {
-    rawValue = currentMotorPosition;
+    rawValue = sensorValue;
     filteredValue = filterSignal(rawValue);
     return filteredValue;
 }
 
 float Sensor::filterSignal(float rawValue) {
-    return rawValue; //später evtl. Durchschnitt bilden
+    AngleControl::getInstance().setCurrentAngle(rawValue);
+    return rawValue;
 }
 
-//Nur physikalische Grenzen des Sensors für jetzt, später simuliern mit srand
 bool Sensor::checkSensorStatus() {
     if (rawValue < -180.0f || rawValue > 180.0f) {
         std::cout << "Sensorfehler erkannt!" << std::endl;

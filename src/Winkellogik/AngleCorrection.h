@@ -1,3 +1,6 @@
+#include "AngleControl.h"
+#include <iostream>
+
 class AngleCorrection {
 private:
     float deviation;
@@ -5,6 +8,5 @@ private:
 public:
     float checkDeviation(float targetAngle, float currentAngle);
     void correctAngle();
-    void notifyUI();
 };
 

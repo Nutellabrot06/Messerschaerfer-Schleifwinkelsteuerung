@@ -21,8 +21,6 @@ add_executable(Messerschaerfer_Schleifwinkelsteuerung
         src/UI/UI_Display.h
         src/UI/UI_Input.cpp
         src/UI/UI_Input.h
-        src/UI/UI_StatusHandler.cpp
-        src/UI/UI_StatusHandler.h
         src/Winkellogik/AngleControl.cpp
         src/Winkellogik/AngleControl.h
         src/Winkellogik/AngleCorrection.cpp
@@ -30,6 +28,6 @@ add_executable(Messerschaerfer_Schleifwinkelsteuerung
         src/Winkellogik/CalibrationManager.cpp
         src/Winkellogik/CalibrationManager.h
         src/main.cpp
-        src/Values.cpp
-        src/Values.h
+        src/Winkellogik/MotorProxy.cpp
+        src/Winkellogik/MotorProxy.h
 )

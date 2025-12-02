@@ -4,31 +4,30 @@
 #include "Winkellogik/CalibrationManager.h"
 #include "HardwareAbstraction/Sensor.h"
 #include "HardwareAbstraction/MotorController.h"
-#include "Values.h"
 #include <iostream>
+#include "AngleCorrection.h"
+#include "MotorProxy.h"
 
 int main() {
-    UI_Display display;
     UI_Input input;
-    AngleControl controller;
     CalibrationManager calib;
     Sensor sensor;
-    MotorController motor;
+    AngleCorrection correction;
 
-    display.showStatus("Systemstart");
+    AngleControl::getInstance().startInactivityWatcher();
+
+    UI_Display::getInstance().updateDisplay();
     calib.startCalibration();
 
     while (true) {
-        float inputVal = input.readSliderInput();
-        motor.moveToAngle(inputVal);
-        controller.updateControlLoop();
+        input.readSliderInput();
+        correction.correctAngle();
 
-        float angle = sensor.readAngle();
         if (!sensor.checkSensorStatus()) {
-            display.updateDisplay("Fehlerhaft", "Sensorfehler");
+            UI_Display::getInstance().updateDisplay();
         }
         else {
-            display.updateDisplay("Bereitschaft", "---");
+            UI_Display::getInstance().updateDisplay();
         }
     }
     return 0;

@@ -1,3 +1,9 @@
+#include "AngleControl.h"
+#include <random>
+#include <thread>
+#include <chrono>
+#include <iostream>
+
 class CalibrationManager {
 private:
     float offset;

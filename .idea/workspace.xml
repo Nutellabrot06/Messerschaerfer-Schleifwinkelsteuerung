@@ -28,9 +28,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f73e06d0-a1f6-4c24-8a7e-154468194868" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Winkellogik/CalibrationManager.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Winkellogik/CalibrationManager.h" afterDir="false" />
+    <list default="true" id="f73e06d0-a1f6-4c24-8a7e-154468194868" name="Changes" comment="Sprint 1 Implementierung">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HardwareAbstraction/MotorController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/HardwareAbstraction/MotorController.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HardwareAbstraction/MotorController.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/HardwareAbstraction/MotorController.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HardwareAbstraction/Sensor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/HardwareAbstraction/Sensor.cpp" afterDir="false" />
@@ -39,12 +39,16 @@
       <change beforePath="$PROJECT_DIR$/src/UI/UI_Display.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/UI_Display.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UI/UI_Input.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/UI_Input.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UI/UI_Input.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/UI_Input.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/UI_StatusHandler.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/UI_StatusHandler.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Values.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Values.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Winkellogik/AngleControl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Winkellogik/AngleControl.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Winkellogik/AngleControl.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Winkellogik/AngleControl.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Winkellogik/AngleCorrection.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Winkellogik/AngleCorrection.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Winkellogik/AngleCorrection.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Winkellogik/AngleCorrection.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Winkellogik/CalibrationManger.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Winkellogik/CalibrationManger.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Winkellogik/CalibrationManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Winkellogik/CalibrationManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Winkellogik/CalibrationManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Winkellogik/CalibrationManager.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +75,23 @@
     &quot;accountId&quot;: &quot;bb1185c2-68df-474d-a808-6bdd8a778c18&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/lukas/CLionProjects/Messerschaerfer-Schleifwinkelsteuerung/src/HardwareAbstraction/MotorController.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/lukas/CLionProjects/Messerschaerfer-Schleifwinkelsteuerung/src/HardwareAbstraction/MotorController.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/lukas/CLionProjects/Messerschaerfer-Schleifwinkelsteuerung/src/HardwareAbstraction/MotorController.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/lukas/CLionProjects/Messerschaerfer-Schleifwinkelsteuerung/src/HardwareAbstraction/Sensor.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/lukas/CLionProjects/Messerschaerfer-Schleifwinkelsteuerung/src/HardwareAbstraction/Sensor.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/lukas/CLionProjects/Messerschaerfer-Schleifwinkelsteuerung/src/Winkellogik/CalibrationManager.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/lukas/CLionProjects/Messerschaerfer-Schleifwinkelsteuerung/src/Winkellogik/CalibrationManager.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/lukas/CLionProjects/Messerschaerfer-Schleifwinkelsteuerung/src/Winkellogik/CalibrationManager.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/lukas/CLionProjects/Messerschaerfer-Schleifwinkelsteuerung/src/Winkellogik/MotorProxy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/lukas/CLionProjects/Messerschaerfer-Schleifwinkelsteuerung/src/Winkellogik/MotorProxy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/lukas/CLionProjects/Messerschaerfer-Schleifwinkelsteuerung/src/Winkellogik/MotorProxy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/lukas/CLionProjects/Messerschaerfer-Schleifwinkelsteuerung/src/Winkellogik/MotorProxy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/lukas/CLionProjects/Messerschaerfer-Schleifwinkelsteuerung/src/Winkellogik/MotorProxy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/lukas/CLionProjects/Messerschaerfer-Schleifwinkelsteuerung/src/Winkellogik/MotorProxy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/lukas/CLionProjects/Messerschaerfer-Schleifwinkelsteuerung/src/Winkellogik/MotorProxy.cpp" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
     <option name="majorVersion" value="2025" />
@@ -140,8 +161,29 @@
       <workItem from="1762809292803" duration="2977000" />
       <workItem from="1762852357632" duration="1359000" />
       <workItem from="1762887298255" duration="834000" />
-      <workItem from="1762889645948" duration="12000" />
+      <workItem from="1762889645948" duration="148000" />
+      <workItem from="1762951082866" duration="411000" />
+      <workItem from="1762966421786" duration="485000" />
+      <workItem from="1762968025379" duration="1186000" />
+      <workItem from="1762971227717" duration="72000" />
+      <workItem from="1763291219740" duration="3592000" />
+      <workItem from="1763294845220" duration="241000" />
+      <workItem from="1763752351459" duration="633000" />
+      <workItem from="1763763009314" duration="3274000" />
+      <workItem from="1763766314888" duration="7000" />
+      <workItem from="1763998267053" duration="4556000" />
+      <workItem from="1764003391010" duration="1087000" />
+      <workItem from="1764707319087" duration="6825000" />
     </task>
+    <task id="LOCAL-00001" summary="Sprint 1 Implementierung">
+      <option name="closed" value="true" />
+      <created>1762889746238</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762889746238</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,5 +204,19 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Sprint 1 Implementierung" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sprint 1 Implementierung" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/UI/UI_Display.cpp</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

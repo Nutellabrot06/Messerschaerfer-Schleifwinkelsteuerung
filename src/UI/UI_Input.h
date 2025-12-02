@@ -1,6 +1,9 @@
+#include <iostream>
+#include "AngleControl.h"
+
 class UI_Input {
 private:
-    float currentValue;
+    float inputValue = 0.0f;
 
 public:
     float readSliderInput();
