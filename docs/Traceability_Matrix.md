@@ -9,7 +9,7 @@
 | F2.2 |  | Winkellogik | AngleCorrection |  |  | Ausstehend |  |
 | F3.1 | CTR-5 | UI | UI_Display | updateDisplay(), showStatus(), showWarning(), refreshScreen() | 1 | Teilweise | MTF3 |
 | F3.2 | CTR-6 | UI | UI_Input | readSliderInput(), onSliderChange(), sendTargetAngle() | 1 | Implementiert | ITF1 |
-| F3.3 |  | UI | UI_StatusHandler |  |  | Ausstehend |  |
+| F3.3 |  | UI | UI_Display |  |  | Ausstehend |  |
 | F3.4 |  | UI | UI_Display |  |  | Ausstehend |  |
 | F4.1 | CTR-7 | Winkellogik | CalibrationManager | startCalibration(), calculateOffset(), applyCalibration() | 1 | Implementiert | ITF2 |
 | F4.2 | CTR-8 | Winkellogik | CalibrationManager | startCalibration(), calculateOffset(), applyCalibration() | 1 | Implementiert | ITF2 |
