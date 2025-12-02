@@ -5,14 +5,14 @@ In Sprint 2 werden die restlichen funktionalen, wie auch die ersten Nicht-Ffunkt
 
 | ID | Tracking | Requirement | Begründung |
 | --- | --- | --- | --- |
-| F2.2 |  | Winkelkorrektur | Funktional |
+| F2.2 | CTR-9 | Winkelkorrektur | Funktional |
 | F3.1 | CTR-5 | Display | Vervollständigung |
-| F3.3 |  | Systemstatus | Funktional |
-| F3.4 |  | Anweisungen | Funktional |
-| F5.1 |  | Inaktivitätsschaltung | Funktional |
-| F5.2 |  | Sichere Positon nach Ausschalten | Funktional |
-| NF2.1 |  | Korrekturzeit | Kopplung an F2.2 |
-| NF4.1 |  | Selbstkalibrierungsdauer | Kopplung an F4.2 |
+| F3.3 | CTR-10 | Systemstatus | Funktional |
+| F3.4 | CTR-11 | Anweisungen | Funktional |
+| F5.1 | CTR-12 | Inaktivitätsschaltung | Funktional |
+| F5.2 | CTR-13 | Sichere Positon nach Ausschalten | Funktional |
+| NF2.1 | CTR-14 | Korrekturzeit | Kopplung an F2.2 |
+| NF4.1 | CTR-15 | Selbstkalibrierungsdauer | Kopplung an F4.2 |
 
 ### 2) Architektur:
 Nachdem die Architektur bereits festgelegt wurde wird diese hier wieder aufgegriffen.
