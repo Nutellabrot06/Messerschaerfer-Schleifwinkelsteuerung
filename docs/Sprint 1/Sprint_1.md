@@ -28,7 +28,7 @@ Die aufgearbeiteten Grundlagen des Designs werden in diesem Sprint verfeinert un
 [Implementierung](https://github.com/Nutellabrot06/Messerschaerfer-Schleifwinkelsteuerung/blob/main/docs/Sprint%201/Implementierung_1.md)
 
 ### 5) Tests:
-[Tests](https://github.com/Nutellabrot06/Messerschaerfer-Schleifwinkelsteuerung/blob/main/docs/Sprint%201/Test.md)
+[Tests](https://github.com/Nutellabrot06/Messerschaerfer-Schleifwinkelsteuerung/blob/main/Test/Test_Sprint1.md)
 
 ### 6) Retrospektive:
 
