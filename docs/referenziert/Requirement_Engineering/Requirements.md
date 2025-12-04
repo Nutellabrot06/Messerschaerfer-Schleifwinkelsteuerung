@@ -23,6 +23,7 @@
 | F4.2 | CTR-8 | Nullwinkelkalibrierung | Kalibrieriung des Nullwinkels mit +-0.2° in <5 Sekunden |
 | F5.1 | CTR-12 | Inaktivitätsschaltung | Ausschalten nach 3 Minuten Inaktivität |
 | F5.2 | CTR-13 | Sichere Positon nach Ausschalten | Winkel auf 0° beim Ausschalten |
+| F5.3 | CTR-16 | Winkellimit | Winkel > 40° abfangen |
 
 ## Nicht-funktionale Requirements
 

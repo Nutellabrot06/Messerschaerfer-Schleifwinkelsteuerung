@@ -11,6 +11,7 @@ In Sprint 2 werden die restlichen funktionalen, wie auch die ersten Nicht-Ffunkt
 | F3.4 | CTR-11 | Anweisungen | Funktional |
 | F5.1 | CTR-12 | Inaktivitätsschaltung | Funktional |
 | F5.2 | CTR-13 | Sichere Positon nach Ausschalten | Funktional |
+| F5.3 | CTR-16 | Winkellimit | Funktional |
 | NF2.1 | CTR-14 | Korrekturzeit | Kopplung an F2.2 |
 | NF4.1 | CTR-15 | Selbstkalibrierungsdauer | Kopplung an F4.2 |
 

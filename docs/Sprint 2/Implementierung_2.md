@@ -8,6 +8,7 @@
 | F3.4 | CTR-11 | UI | UI_Display | refreshScreen() | 2 | Implementiert | MTF5 |
 | F5.1 | CTR-12 | HardwareAbstraction | MotorController | stopMotor(), setSafePosition() | 2 | Implementiert | MTF6, ITF6 |
 | F5.2 | CTR-13 | HardwareAbstraction | MotorController | stopMotor(), setSafePosition() | 2 | Implementiert | ITF6 |
+| F5.3 | CTR-16 | HardwareAbstraction | MotorProxy | checkInput() | 2 | Implementiert | ITF5 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | NF2.1 | CTR-14 | Winkellogik | AngleControl | updateControlLoop() | 2 | Implementiert | MTF4 |
 | NF4.1 | CTR-15 | Winkellogik | CalibrationManager | startCalibration() | 2 | Implementiert |  |

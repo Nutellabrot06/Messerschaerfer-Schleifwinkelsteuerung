@@ -36,11 +36,11 @@
 
 ### ITF5 - AngleControl -> MotorProxy -> MotorController
     Vorbedingung:       currentAngle = 10.0f
-                        targetAngle = 20.0f
+                        targetAngle = 45.0f
     Aktion:             AngleControl::updateControlLoop() wird ausgeführt
-    Erwartete Reaktion: Die Funktionen von AngleControl, MotorProxy und MotorController arbeiten zusammen um den currentAngle auf 20.0f zu setzen
-    Nachbedingung:      currentAngle = 20.0f
-    Ergebnis:           Die benötigten Funktionen werden alle korrekt aufgerufen und setzen den Winkel auf 20.0f und bestehen somit den Testfall
+    Erwartete Reaktion: Die Funktionen von AngleControl, MotorProxy und MotorController arbeiten zusammen und der Proxy fängt den Input ab
+    Nachbedingung:      currentAngle = 0.0f
+    Ergebnis:           Die benötigten Funktionen werden alle korrekt aufgerufen und setzen den Winkel auf 0.0f nachdem der Input abgefangen wird und bestehen somit den Testfall
 
 ### ITF6 - AngleControl -> MotorProxy -> MotorController
     Vorbedingung:       currentAngle = 10.0f
