@@ -34,15 +34,15 @@ Nachdem die Architektur bereits festgelegt wurde wird diese hier wieder aufgegri
 
 Folgend auf die Änderungen am Design aus Sprint 1 wurden diese alle entsprechend umgesetzt, aber es kamen auch während der Bearbeitung neue Funktionen, vor allem bezüglich des Inaktivitätstimers, auf. Dies veranlasste ein erneutes überarbeiten des Klassendiagramms auf "Klassendiagramm_Sprint_2_V2.png". Änderungen hierbei sind:
     
-    Winkellogik:         - targetAngle, currentAngle und zugehörige getter/setter lokal in AngleControl
-                         - lastActivityTime, running, watcherThread lokal in AngleControl zur Inaktivitätsmessung
-                         - registerActivity(), inactivityWatcher(), startInactivityWatcher(), stopInactivityWatcher() in AngleControl zur Inaktivitätsmessung
-    UI:                  - status, warning und zugehörige getter/setter lokal in UI_Display
+    Winkellogik:         - targetAngle, currentAngle und zugehörige getter/setter lokal in AngleControl hinzugefügt
+                         - lastActivityTime, running, watcherThread in AngleControl zur Inaktivitätsmessung hinzugefügt
+                         - registerActivity(), inactivityWatcher(), startInactivityWatcher(), stopInactivityWatcher() in AngleControl zur Inaktivitätsmessung hinzugefügt
+    UI:                  - status, warning und zugehörige getter/setter lokal in UI_Display hinzugefügt
 
 Nachdem jetzt mit Sprint 2 alle funktionalen Requirements implementiert sind werden in Sprint 3 diejenigen Requirements umgesetzt, welche lediglich dem Komfort des Nutzers dienen. Hierfür werden folgende Änderungen am Design vorgenommen:
 
-    UI:                  - adjustBrightness() in UI_Display
-    HardwareAbstraction: - brightness Variable in Snesor
-                         - readBrightness() Funktion in Sensor
+    UI:                  - adjustBrightness() in UI_Display hinzufügen
+    HardwareAbstraction: - brightness-Variable in Sensor hinzufügen
+                         - readBrightness() Funktion in Sensor hinzufügen
 
     

@@ -16,7 +16,7 @@
 | Komponenete | Funktion |
 | --- | --- |
 | AngleCorrection | correctAngle() |
-| UI_Display | setStatus(), setWarning(), getStatus(), getWarning() |
-| AngleControl | setTargetAngle(), setCurrentAngle(), getTargetAngle(), getCurrentAngle(), registerActivity(), inactivityWatcher(), startInactivityWatcher(), void stopInactivityWatcher() |
+| UI_Display | setStatus(), setWarning(), getStatus(), getWarning(), refreshScreen() |
+| AngleControl | setTargetAngle(), setCurrentAngle(), getTargetAngle(), getCurrentAngle(), registerActivity(), inactivityWatcher(), startInactivityWatcher(), stopInactivityWatcher() |
 | MotorProxy | checkInput() |
 | MotorController | stopMotor(), setSafePosition() |
