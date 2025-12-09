@@ -1,3 +1,7 @@
+## Wiederholung Testfälle Sprint 1:
+
+Zusätzlich zu den Testfällen MTF4-6 und ITF4-6 wurden auch die Testfälle aus Sprint 1 wiederholt. Hierbei bestanden alle Modultestfälle erneut, die Integrationstestfälle allerdings wie zu erwarten nicht mehr, da die Schnittstelle zwischen AngleControl und MotorController um MotorProxy ergänzt wurde. Somit ruft AngleControl nicht mehr direkt den MotorController, sondern den MotorProxy, auf. Diese Schnittstellen werden dementsprechend in den Testfällen ITF4-6 aus Sprint 2 getestet um ein lauffähiges Programm zu garantieren.
+
 ## Testfälle Sprint 2:
 
 ### MTF4 - Dauer der Winkelkorrektur
