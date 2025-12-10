@@ -11,7 +11,6 @@
 int main() {
     UI_Input input;
     CalibrationManager calib;
-    Sensor sensor;
     AngleCorrection correction;
 
     AngleControl::getInstance().startInactivityWatcher();
@@ -25,7 +24,7 @@ int main() {
 
         correction.correctAngle();
 
-        if (!sensor.checkSensorStatus()) {
+        if (!Sensor::getInstance().checkSensorStatus()) {
             UI_Display::getInstance().updateDisplay();
         }
         else {

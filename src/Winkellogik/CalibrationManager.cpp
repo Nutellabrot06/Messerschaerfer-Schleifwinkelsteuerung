@@ -1,6 +1,13 @@
 #include "CalibrationManager.h"
 
+PersistenceService persistence;
+
 void CalibrationManager::startCalibration() {
+    offset = persistence.loadCalibrationData();
+
+    if (offset != 0.0f) {
+        applyCalibration(offset);
+    }
     //Random Number um max 5 Sekunden Wartezeit zu simulieren
     std::random_device rd;
     std::mt19937 gen(rd());
@@ -14,6 +21,9 @@ void CalibrationManager::startCalibration() {
 
     offset = calculateOffset(AngleControl::getInstance().getCurrentAngle());
     applyCalibration(offset);
+
+    persistence.saveCalibrationData(offset);
+    persistence.logEvent("Calibration fertig. Offset: " + std::to_string(offset));
 }
 
 float CalibrationManager::calculateOffset(float sensorValue) {

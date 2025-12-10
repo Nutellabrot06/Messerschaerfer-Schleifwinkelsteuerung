@@ -1,10 +1,13 @@
 #include "AngleControl.h"
 
 MotorProxy proxy;
+ConfigManager config;
 
 AngleControl::AngleControl() : targetAngle(0), currentAngle(0), running(false) {
     lastActivityTime = std::chrono::steady_clock::now();
 }
+
+int limit = std::stoi(config.loadConfig());
 
 float AngleControl::calculateMotorCommand(float targetAngle, float currentAngle) {
     return targetAngle - currentAngle;
@@ -59,7 +62,7 @@ void AngleControl::inactivityWatcher() {
         auto now = std::chrono::steady_clock::now();
         auto inactiveSeconds = std::chrono::duration_cast<std::chrono::seconds>(now - lastActivityTime).count();
 
-        if (inactiveSeconds >= 180) {
+        if (inactiveSeconds >= (limit * 60)) {
             UI_Display::getInstance().setWarning("Inaktivitaet, Motor wird ausgeschaltet");
             UI_Display::getInstance().updateDisplay();
             MotorController::getInstance().stopMotor();

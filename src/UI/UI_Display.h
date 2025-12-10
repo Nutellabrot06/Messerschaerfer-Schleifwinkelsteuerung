@@ -2,6 +2,7 @@
 
 #include <string>
 #include <iostream>
+#include <sensor.h>
 #include "AngleControl.h"
 #include "windows.h"
 
@@ -21,6 +22,7 @@ public:
     std::string getWarning();
     void setStatus(std::string status_new);
     void setWarning(std::string warning_new);
+    int adjustBrightness();
 
     static UI_Display& getInstance() {
         static UI_Display instance;

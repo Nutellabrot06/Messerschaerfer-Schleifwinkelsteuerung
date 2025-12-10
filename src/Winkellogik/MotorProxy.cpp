@@ -6,6 +6,9 @@ void MotorProxy::checkInput(float angle) {
         AngleControl::getInstance().setTargetAngle(0.0f);
         UI_Display::getInstance().setWarning("Ungueltige Eingabe, da > 40 Grad");
     }
+    else if(angle == 0.0f) {
+        MotorController::getInstance().stopMotor();
+    }
     else {
         MotorController::getInstance().moveToAngle(angle);
         std::cout << "Motorposition angepasst: " << AngleControl::getInstance().getCurrentAngle() << " Grad" << std::endl;

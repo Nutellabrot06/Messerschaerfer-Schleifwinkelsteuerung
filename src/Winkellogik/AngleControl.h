@@ -5,6 +5,7 @@
 #include <atomic>
 #include "MotorProxy.h"
 #include "UI_Display.h"
+#include "ConfigManager.h"
 
 class AngleControl {
 private:
