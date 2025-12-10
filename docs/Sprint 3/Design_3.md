@@ -1,10 +1,10 @@
 # Design
 
-Die folgenden Diagramme stellen die überarbeitete Version nach Sprint 1 da und werden als Grundlage für die Implementierung von Sprint 2 dienen.
+Die folgenden Diagramme stellen die überarbeitete Version nach Sprint 2 da und werden als Grundlage für die Implementierung von Sprint 3 dienen.
 
 ## Klassendiagramm: 
 
-![Klassendiagramm](https://github.com/Nutellabrot06/Messerschaerfer-Schleifwinkelsteuerung/blob/main/docs/referenziert/Design/Klassendiagramm_Sprint_2_V2.png)
+![Klassendiagramm](https://github.com/Nutellabrot06/Messerschaerfer-Schleifwinkelsteuerung/blob/main/docs/referenziert/Design/Klassendiagramm_Sprint_3.png)
 
 ## Sequenzdiagramm:
 

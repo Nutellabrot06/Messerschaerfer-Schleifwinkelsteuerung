@@ -1,18 +1,19 @@
 ## Sprint 2:
 
 ### 1) Requirements:
-In Sprint 2 werden die restlichen funktionalen, wie auch die ersten Nicht-Ffunktionalen requirements implementiert, sodass die wichtigsten Requirements integriert sind.
+In Sprint 2 werden die restlichen funktionalen, wie auch die ersten nicht-funktionalen Requirements implementiert, sodass die wichtigsten Requirements integriert sind.
 
 | ID | Tracking | Requirement | Begründung |
 | --- | --- | --- | --- |
-| F2.2 |  | Winkelkorrektur | Funktional |
+| F2.2 | CTR-9 | Winkelkorrektur | Funktional |
 | F3.1 | CTR-5 | Display | Vervollständigung |
-| F3.3 |  | Systemstatus | Funktional |
-| F3.4 |  | Anweisungen | Funktional |
-| F5.1 |  | Inaktivitätsschaltung | Funktional |
-| F5.2 |  | Sichere Positon nach Ausschalten | Funktional |
-| NF2.1 |  | Korrekturzeit | Kopplung an F2.2 |
-| NF4.1 |  | Selbstkalibrierungsdauer | Kopplung an F4.2 |
+| F3.3 | CTR-10 | Systemstatus | Funktional |
+| F3.4 | CTR-11 | Anweisungen | Funktional |
+| F5.1 | CTR-12 | Inaktivitätsschaltung | Funktional |
+| F5.2 | CTR-13 | Sichere Positon nach Ausschalten | Funktional |
+| F5.3 | CTR-16 | Winkellimit | Funktional |
+| NF2.1 | CTR-14 | Korrekturzeit | Kopplung an F2.2 |
+| NF4.1 | CTR-15 | Selbstkalibrierungsdauer | Kopplung an F4.2 |
 
 ### 2) Architektur:
 Nachdem die Architektur bereits festgelegt wurde wird diese hier wieder aufgegriffen.
@@ -27,9 +28,21 @@ Nachdem die Architektur bereits festgelegt wurde wird diese hier wieder aufgegri
 [Implementierung](https://github.com/Nutellabrot06/Messerschaerfer-Schleifwinkelsteuerung/blob/main/docs/Sprint%202/Implementierung_2.md)
 
 ### 5) Tests:
-[Tests](https://github.com/Nutellabrot06/Messerschaerfer-Schleifwinkelsteuerung/blob/main/Testdokumentation.md)
+[Tests](https://github.com/Nutellabrot06/Messerschaerfer-Schleifwinkelsteuerung/blob/main/Test/Test_Sprint2.md)
 
 ### 6) Retrospektive:
 
-TC
+Folgend auf die Änderungen am Design aus Sprint 1 wurden diese alle entsprechend umgesetzt, aber es kamen auch während der Bearbeitung neue Funktionen, vor allem bezüglich des Inaktivitätstimers, auf. Dies veranlasste ein erneutes überarbeiten des Klassendiagramms auf "Klassendiagramm_Sprint_2_V2.png". Änderungen hierbei sind:
+    
+    Winkellogik:         - targetAngle, currentAngle und zugehörige getter/setter lokal in AngleControl hinzugefügt
+                         - lastActivityTime, running, watcherThread in AngleControl zur Inaktivitätsmessung hinzugefügt
+                         - registerActivity(), inactivityWatcher(), startInactivityWatcher(), stopInactivityWatcher() in AngleControl zur Inaktivitätsmessung hinzugefügt
+    UI:                  - status, warning und zugehörige getter/setter lokal in UI_Display hinzugefügt
+
+Nachdem jetzt mit Sprint 2 alle funktionalen Requirements implementiert sind werden in Sprint 3 diejenigen Requirements umgesetzt, welche lediglich dem Komfort des Nutzers dienen. Hierfür werden folgende Änderungen am Design vorgenommen:
+
+    UI:                  - adjustBrightness() in UI_Display hinzufügen
+    HardwareAbstraction: - brightness-Variable in Sensor hinzufügen
+                         - readBrightness() Funktion in Sensor hinzufügen
+
     
