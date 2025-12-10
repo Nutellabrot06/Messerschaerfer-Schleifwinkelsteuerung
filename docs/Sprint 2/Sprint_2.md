@@ -1,7 +1,7 @@
 ## Sprint 2:
 
 ### 1) Requirements:
-In Sprint 2 werden die restlichen funktionalen, wie auch die ersten Nicht-Ffunktionalen requirements implementiert, sodass die wichtigsten Requirements integriert sind.
+In Sprint 2 werden die restlichen funktionalen, wie auch die ersten nicht-funktionalen Requirements implementiert, sodass die wichtigsten Requirements integriert sind.
 
 | ID | Tracking | Requirement | Begründung |
 | --- | --- | --- | --- |
