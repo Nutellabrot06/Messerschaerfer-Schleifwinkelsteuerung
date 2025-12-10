@@ -13,7 +13,7 @@ private:
     Sensor& operator=(Sensor const&) = delete;
 
 public:
-    float readAngle();
+    float readAngle(float sensorValue);
     float readBrightness();
     bool checkSensorStatus();
 

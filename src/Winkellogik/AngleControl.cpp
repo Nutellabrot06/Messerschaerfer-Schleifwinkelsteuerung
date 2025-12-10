@@ -37,7 +37,7 @@ float AngleControl::getTargetAngle() {
 }
 
 float AngleControl::getCurrentAngle() {
-    return currentAngle;
+    return Sensor::getInstance().readAngle(currentAngle);
 }
 
 void AngleControl::startInactivityWatcher() {

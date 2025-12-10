@@ -1,6 +1,6 @@
 #include "Sensor.h"
 
-float Sensor::readAngle() {
+float Sensor::readAngle(float sensorValue) {
 
     //Simuliert die maximal 50ms Verzögerung
     std::random_device rd;
@@ -15,7 +15,7 @@ float Sensor::readAngle() {
 
         //Simuliert 30Hz UpdateRate
         _sleep(33);
-        sensorValue = readAngle();
+        return sensorValue;
     }
 
     return sensorValue;

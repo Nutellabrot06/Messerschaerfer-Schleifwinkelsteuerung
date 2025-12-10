@@ -29,11 +29,11 @@
 
 | Nummer | Tracking | Requirement | Details |
 | --- | --- | --- | --- |
-| NF1.1 |  | Aktualisierungsrate | Aktualisierungsrate von 30Hz |
-| NF1.2 |  | Latenz | Zeit zwischen physikalischer Änderung und Messung <50ms |
+| NF1.1 | CTR-17 | Aktualisierungsrate | Aktualisierungsrate von 30Hz |
+| NF1.2 | CTR-18 | Latenz | Zeit zwischen physikalischer Änderung und Messung <50ms |
 | NF2.1 | CTR-14 | Zeit zum Erreichen | Maximal 1 Sekunde aus jeder Position |
-| NF3.1 |  | Displayaktualisierung | Das Display wird mit 10Hz betrieben |
-| NF3.2 |  | Lesbarkeit | Starker Kontrast (Schrift-Hintergrund; 300Nits |
-| NF3.3 |  | Usability | Slider für jeden zu erkennen/benutzen |
+| NF3.1 | CTR-19 | Displayaktualisierung | Das Display wird mit 10Hz betrieben |
+| NF3.2 | CTR-20 | Lesbarkeit | Starker Kontrast (Schrift-Hintergrund) 300Nits |
+| NF3.3 | CTR-21 | Usability | Slider für jeden zu erkennen/benutzen |
 | NF4.1 | CTR-15 | Dauer | Abschluss in <5 Sekunden |
-| NF5.1 |  | Konfiguration | Inaktivität anpassbar durch Nutzer |
+| NF5.1 | CTR-22 | Konfiguration | Inaktivität anpassbar durch Nutzer |

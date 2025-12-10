@@ -28,6 +28,13 @@ In Sprint 3 werden nicht-funktionalen Requirements implementiert, sodass alle Re
 
 ### 6) Retrospektive:
 
-TC
+In diesem Sprint wurde das vorab geplante Design, sowie Architektur nach Plan umgesetzt und lediglich Kleinigkeiten wurden geändert:
+
+    UI_Display:         adjustBrightness() ohne Übergabeparameter
+    PersistenceService: Schnittstelle zu CalibrationManager, nicht HardwareAbstraction
+    ConfigManager:      Schnittstelle zu AngleControl, nicht HardwareAbstraction
+    CalibrationManager: nutzt alle Funktionen als Schnittstelle aus PersistenceService
+
+Zudem wurden die Aktualiserungsrate von Bildschirm und Sensor in die dazugehörigen Funktionen integriert, womit abschließend zu sagen ist, dass dieser Sprint plangmäßig und erfolgreich verlief ohne, dass größere Änderungen an Design oder Architektur im Nachhinein vollbracht werden mussten.
 
     
