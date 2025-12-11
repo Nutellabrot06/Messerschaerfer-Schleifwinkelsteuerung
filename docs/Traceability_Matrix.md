@@ -16,11 +16,11 @@
 | **F5.1** | CTR-12 | Inaktivitätsschaltung | HardwareAbstraction | MotorController | stopMotor(), setSafePosition() |  |  |  | 2 | stopMotor(), setSafePosition() | 🟢 MTF6, 🟢 ITF6 |  |  |  |
 | **F5.2** | CTR-13 | Sichere Ausschalt-Position | HardwareAbstraction | MotorController | stopMotor(), setSafePosition() |  |  |  | 2 | stopMotor(), setSafePosition() | 🟢 ITF6 |  |  |  |
 | **F5.3** | CTR-16 | Winkellimit | HardwareAbstraction | MotorProxy | checkInput() |  |  |  | 2 | checkInput() | 🟢 ITF5 |  |  |  |
-| **NF1.1** | CTR-17 | Aktualisierungsrate | HardwareAbstraction | Sensor |  |  |  |  |  |  |  | 3 | readAngle() | 🟢 MTF7 |
-| **NF1.2** | CTR-18 | Latenz | HardwareAbstraction | Sensor |  |  |  |  |  |  |  | 3 | readAngle() | 🟢 MTF8 |
+| **NF1.1** | CTR-17 | Aktualisierungsrate | HardwareAbstraction | Sensor | readAngle() |  |  |  |  |  |  | 3 | readAngle() | 🟢 MTF7 |
+| **NF1.2** | CTR-18 | Latenz | HardwareAbstraction | Sensor | readAngle() |  |  |  |  |  |  | 3 | readAngle() | 🟢 MTF8 |
 | **NF2.1** | CTR-14 | Zeit zum Erreichen | Winkellogik | AngleControl | updateControlLoop() |  |  |  | 2 | updateControlLoop() | 🟢 MTF4 |  |  |  |
-| **NF3.1** | CTR-19 | Displayaktualisierung | UI | UI_Display |  |  |  |  |  |  |  | 3 | updateDisplay() | - |
-| **NF3.2** | CTR-20 | Lesbarkeit | UI | UI_Display |  |  |  |  |  |  |  | 3 | adjustBrightness() | 🟢 MTF9, 🟢 ITF7 |
-| **NF3.3** | CTR-21 | Usability | UI | UI_Input |  |  |  |  |  |  |  | 3 | readSliderInput() | - |
+| **NF3.1** | CTR-19 | Displayaktualisierung | UI | UI_Display | updateDisplay() |  |  |  |  |  |  | 3 | updateDisplay() | - |
+| **NF3.2** | CTR-20 | Lesbarkeit | UI | UI_Display | adjustBrightness() |  |  |  |  |  |  | 3 | adjustBrightness() | 🟢 MTF9, 🟢 ITF7 |
+| **NF3.3** | CTR-21 | Usability | UI | UI_Input | readSliderInput() |  |  |  |  |  |  | 3 | readSliderInput() | - |
 | **NF4.1** | CTR-15 | Dauer | Winkellogik | CalibrationManager | startCalibration() |  |  |  | 2 | startCalibration() | – |  |  |  |
-| **NF5.1** | CTR-22 | Konfiguration | PersistenceManager | ConfigManager |  |  |  |  |  |  |  | 3 | saveConfig(), loadConfig() | 🟢 ITF8, 🟢 ITF9 |
+| **NF5.1** | CTR-22 | Konfiguration | PersistenceManager | ConfigManager | saveConfig(), loadConfig() |  |  |  |  |  |  | 3 | saveConfig(), loadConfig() | 🟢 ITF8, 🟢 ITF9 |
