@@ -1,6 +1,6 @@
-## Wiederholung Testfälle Sprint 2:
+## Wiederholung Testfälle Sprint 1 + 2:
 
-Zusätzlich zu den Testfällen MTF7-9 und ITF7-9 wurden auch die Testfälle aus Sprint 2 und 1 wiederholt. Hierbei bestanden erneut alle MTF erneut, wie auch ITF4-6. ITF1-3 wurden hierbei wie in Test_Sprint2.md vermerkt durch ITF4-6 abgelöst, weshalb sie nicht mehr korrekt funktionieren.
+Zusätzlich zu den Testfällen MTF7-9 und ITF7-9 wurden auch die Testfälle aus Sprint 1 und 2 wiederholt. Hierbei bestanden sowohl alle Modultestfälle, als auch alle Integrationstestfälle.
 
 ## Testfälle Sprint 3:
 
