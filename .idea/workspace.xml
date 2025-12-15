@@ -28,20 +28,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f73e06d0-a1f6-4c24-8a7e-154468194868" name="Changes" comment="Sprint 2 Implementierung">
+    <list default="true" id="f73e06d0-a1f6-4c24-8a7e-154468194868" name="Changes" comment="Sprint 3 Implementierung">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HardwareAbstraction/Sensor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/HardwareAbstraction/Sensor.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HardwareAbstraction/Sensor.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/HardwareAbstraction/Sensor.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PersistenceManager/ConfigManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersistenceManager/ConfigManager.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PersistenceManager/ConfigManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersistenceManager/ConfigManager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PersistenceManager/PersistenceService.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersistenceManager/PersistenceService.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PersistenceManager/PersistenceService.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersistenceManager/PersistenceService.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UI/UI_Display.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/UI_Display.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UI/UI_Display.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/UI_Display.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UI/UI_Input.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/UI_Input.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UI/UI_Input.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/UI_Input.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Winkellogik/AngleControl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Winkellogik/AngleControl.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Winkellogik/AngleControl.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Winkellogik/AngleControl.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Winkellogik/CalibrationManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Winkellogik/CalibrationManager.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Winkellogik/CalibrationManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Winkellogik/CalibrationManager.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Winkellogik/MotorProxy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Winkellogik/MotorProxy.cpp" afterDir="false" />
@@ -72,14 +67,6 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/lukas/CLionProjects/Messerschaerfer-Schleifwinkelsteuerung/src/HardwareAbstraction/MotorController.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/lukas/CLionProjects/Messerschaerfer-Schleifwinkelsteuerung/src/HardwareAbstraction/MotorController.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/lukas/CLionProjects/Messerschaerfer-Schleifwinkelsteuerung/src/HardwareAbstraction/MotorController.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/lukas/CLionProjects/Messerschaerfer-Schleifwinkelsteuerung/src/HardwareAbstraction/Sensor.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/lukas/CLionProjects/Messerschaerfer-Schleifwinkelsteuerung/src/HardwareAbstraction/Sensor.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/lukas/CLionProjects/Messerschaerfer-Schleifwinkelsteuerung/src/Winkellogik/CalibrationManager.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/lukas/CLionProjects/Messerschaerfer-Schleifwinkelsteuerung/src/Winkellogik/CalibrationManager.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/lukas/CLionProjects/Messerschaerfer-Schleifwinkelsteuerung/src/Winkellogik/CalibrationManager.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/lukas/CLionProjects/Messerschaerfer-Schleifwinkelsteuerung/src/Winkellogik/MotorProxy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/lukas/CLionProjects/Messerschaerfer-Schleifwinkelsteuerung/src/Winkellogik/MotorProxy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/lukas/CLionProjects/Messerschaerfer-Schleifwinkelsteuerung/src/Winkellogik/MotorProxy.cpp" root0="SKIP_HIGHLIGHTING" />
@@ -174,7 +161,10 @@
       <workItem from="1764754871100" duration="2314000" />
       <workItem from="1764855335742" duration="631000" />
       <workItem from="1765319393122" duration="676000" />
-      <workItem from="1765365833071" duration="5390000" />
+      <workItem from="1765365833071" duration="6418000" />
+      <workItem from="1765373753583" duration="2093000" />
+      <workItem from="1765567404614" duration="7000" />
+      <workItem from="1765822295376" duration="4410000" />
     </task>
     <task id="LOCAL-00001" summary="Sprint 1 Implementierung">
       <option name="closed" value="true" />
@@ -208,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764716719780</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Sprint 3 Implementierung">
+      <option name="closed" value="true" />
+      <created>1765372037300</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765372037300</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +231,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Sprint 1 Implementierung" />
     <MESSAGE value="Sprint 2 Implementierung" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sprint 2 Implementierung" />
+    <MESSAGE value="Sprint 3 Implementierung" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sprint 3 Implementierung" />
   </component>
 </project>

@@ -13,7 +13,7 @@ void UI_Display::updateDisplay() {
 
 void UI_Display::refreshScreen() {
 
-    std::cout << "\n--- Anzeige ---\n";
+    std::cout << "\n\n--- Anzeige ---\n";
     std::cout << "Aktueller Ist-Winkel: " << AngleControl::getInstance().getCurrentAngle() << " Grad" << std::endl;
     std::cout << "Aktueller Soll-Winkel: " << AngleControl::getInstance().getTargetAngle() << " Grad" << std::endl;
     SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE);

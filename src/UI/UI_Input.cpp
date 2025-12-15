@@ -2,6 +2,8 @@
 
 ConfigManager config1;
 
+HANDLE iConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+
 void UI_Input::readSliderInput() {
     int input = 0;
     int inactivityTimeout = std::stoi(config1.loadConfig());
@@ -12,24 +14,39 @@ void UI_Input::readSliderInput() {
     std::cout << "2. Inaktivitaet aendern\n";
     std::cout << "3. Inaktivitaet zeigen\n";
     std::cout << "4. Verlassen\n";
-    std::cout << "Input hier: ";
+    SetConsoleTextAttribute(iConsole, FOREGROUND_GREEN);
+    std::cout << "\nInput hier: ";
+        SetConsoleTextAttribute(iConsole, FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE);
     std::cin >> input;
 
         switch (input) {
             case 1:
-                std::cout << "\nNeuen Sollwinkel eingeben: ";
+                std::cout << "Neuen Sollwinkel eingeben: ";
                 std::cin >> inputValue;
-                onSliderChange(inputValue);
+                if (std::cin.fail()) {
+                    std::cin.clear();
+                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+                    UI_Display::getInstance().setWarning("Ungueltige Winkeleingabe");
+                }
+                else {
+                    onSliderChange(inputValue);
+                }
                 break;
 
             case 2:
-                std::cout << "\nNeuen Inaktivitaetswert in Minuten eingeben: ";
+                std::cout << "\nNeuen Inaktivitaetswert in Sekunden eingeben: ";
                 std::cin >> inputValue;
-                config1.saveConfig(std::to_string(inputValue));
+                if (inputValue <= 0) {
+                    UI_Display::getInstance().setWarning("Eingabe für Inaktivitaet muss > 0 Sekunden sein!");
+                }
+                else {
+                    config1.saveConfig(std::to_string(inputValue));
+                    UI_Display::getInstance().setStatus("Aenderungen werden bei naechstem Systemstart übernommen");
+                }
                 break;
 
             case 3:
-                std::cout << "\nInaktivitaet zeigen: " << inactivityTimeout << std::endl;
+                std::cout << "\nInaktivitaet zeigen: " << inactivityTimeout << " Sekunden" << std::endl;
                 break;
 
             case 4:
@@ -38,7 +55,7 @@ void UI_Input::readSliderInput() {
                 exit(0);
 
             default:
-                std::cout << "Ungültig\n";
+                std::cout << "Ungueltig\n";
         }
     }
 }

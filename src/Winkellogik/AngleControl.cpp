@@ -37,7 +37,7 @@ float AngleControl::getTargetAngle() {
 }
 
 float AngleControl::getCurrentAngle() {
-    return currentAngle;
+    return Sensor::getInstance().readAngle(currentAngle);
 }
 
 void AngleControl::startInactivityWatcher() {
@@ -62,7 +62,7 @@ void AngleControl::inactivityWatcher() {
         auto now = std::chrono::steady_clock::now();
         auto inactiveSeconds = std::chrono::duration_cast<std::chrono::seconds>(now - lastActivityTime).count();
 
-        if (inactiveSeconds >= (limit * 60)) {
+        if (inactiveSeconds >= (limit)) {
             UI_Display::getInstance().setWarning("Inaktivitaet, Motor wird ausgeschaltet");
             UI_Display::getInstance().updateDisplay();
             MotorController::getInstance().stopMotor();

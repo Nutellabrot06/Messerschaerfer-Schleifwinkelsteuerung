@@ -1,6 +1,6 @@
 #include "Sensor.h"
 
-float Sensor::readAngle() {
+float Sensor::readAngle(float sensorValue) {
 
     //Simuliert die maximal 50ms Verzögerung
     std::random_device rd;
@@ -12,13 +12,10 @@ float Sensor::readAngle() {
     _sleep(delay);
 
     while (true) {
-
         //Simuliert 30Hz UpdateRate
         _sleep(33);
-        sensorValue = readAngle();
+        return sensorValue;
     }
-
-    return sensorValue;
 }
 
 float Sensor::readBrightness() {
@@ -33,8 +30,8 @@ float Sensor::readBrightness() {
 }
 
 bool Sensor::checkSensorStatus() {
-    if (sensorValue < -180.0f || sensorValue > 180.0f) {
-        std::cout << "Sensorfehler erkannt!" << std::endl;
+    if (sensorValue < 0) {
+        UI_Display::getInstance().setWarning("Sensorfehler erkannt!");
         return false;
     }
     return true;

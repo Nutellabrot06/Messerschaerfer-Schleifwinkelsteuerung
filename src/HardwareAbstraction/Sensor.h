@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include "AngleControl.h"
+#include "UI_Display.h"
 
 class Sensor {
 private:
@@ -13,7 +14,7 @@ private:
     Sensor& operator=(Sensor const&) = delete;
 
 public:
-    float readAngle();
+    float readAngle(float sensorValue);
     float readBrightness();
     bool checkSensorStatus();
 

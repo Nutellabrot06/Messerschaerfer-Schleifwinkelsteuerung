@@ -15,8 +15,6 @@ void CalibrationManager::startCalibration() {
 
     int wait = distribution(gen);
 
-    std::cout << "Kalibrierung gestartet...\n";
-
     _sleep(wait);
 
     offset = calculateOffset(AngleControl::getInstance().getCurrentAngle());
@@ -35,5 +33,8 @@ void CalibrationManager::applyCalibration(float offset) {
     current += offset;
     AngleControl::getInstance().setCurrentAngle(current);
     AngleControl::getInstance().updateControlLoop();
-    std::cout << "Kalibrierung abgeschlossen => Offset: " << offset << std::endl;
+    std::ostringstream oss;
+    oss << std::fixed << std::setprecision(1) << offset;
+    UI_Display::getInstance().setStatus("Kalibrierung abgeschlossen => Offset: " + oss.str() + "\n        Bereitschaft");
+    UI_Display::getInstance().updateDisplay();
 }

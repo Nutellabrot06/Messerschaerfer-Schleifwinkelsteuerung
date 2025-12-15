@@ -7,6 +7,7 @@
 #include <iostream>
 #include "AngleCorrection.h"
 #include "MotorProxy.h"
+#include "Sensor.h"
 
 int main() {
     UI_Input input;
@@ -21,15 +22,9 @@ int main() {
     while (true) {
         input.readSliderInput();
         AngleControl::getInstance().registerActivity();
-
         correction.correctAngle();
-
-        if (!Sensor::getInstance().checkSensorStatus()) {
-            UI_Display::getInstance().updateDisplay();
-        }
-        else {
-            UI_Display::getInstance().updateDisplay();
-        }
+        Sensor::getInstance().checkSensorStatus();
+        UI_Display::getInstance().updateDisplay();
     }
     return 0;
 }

@@ -8,7 +8,7 @@
 
 class UI_Display {
 private:
-    std::string status = "Systemstart";
+    std::string status = "Systemstart\n        Kalibrierung gestartet...";
     std::string warning = " --- ";
 
     UI_Display() {};

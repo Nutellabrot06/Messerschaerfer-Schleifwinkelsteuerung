@@ -1,6 +1,7 @@
 #include <iostream>
 #include "AngleControl.h"
 #include "ConfigManager.h"
+#include "windows.h"
 
 class UI_Input {
 private:

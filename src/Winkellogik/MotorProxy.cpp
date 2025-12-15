@@ -2,12 +2,15 @@
 
 void MotorProxy::checkInput(float angle) {
     if(angle > 40.0f) {
-        std::cout << "Ungueltige Eingabe, da > 40 Grad" << std::endl;
         AngleControl::getInstance().setTargetAngle(0.0f);
         UI_Display::getInstance().setWarning("Ungueltige Eingabe, da > 40 Grad");
     }
     else if(angle == 0.0f) {
         MotorController::getInstance().stopMotor();
+    }
+    else if(angle < 0.0f) {
+        AngleControl::getInstance().setTargetAngle(0.0f);
+        UI_Display::getInstance().setWarning("Ungueltige Eingabe, da < 0 Grad");
     }
     else {
         MotorController::getInstance().moveToAngle(angle);
