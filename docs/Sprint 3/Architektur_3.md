@@ -54,10 +54,10 @@ HardwareAbstraction -> PersistenceManager:  Log Events
 | Quelle | Ziel | Schnittstelle |
 | --- | --- | --- |
 | UI | Winkellogik | sendTargetAngle(), updateDisplay() |
-| Winkellogik | HardwareAbstraction | checkInput(), readAngle() |
+| Winkellogik | HardwareAbstraction | moveToAngle(), readAngle() |
 | Winkellogik | PersistenceManager | loadConfig(), logEvent() |
 
-Synchron:  sendTargetAngle(), checkInput(), readAngle(), loadConfig()
+Synchron:  sendTargetAngle(), moveToAngle(), readAngle(), loadConfig()
 
 Asynchron: updateDisplay(), logEvent()
 
