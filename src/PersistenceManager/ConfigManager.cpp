@@ -37,6 +37,6 @@ void ConfigManager::saveConfig(const std::string& value) {
 
 std::map<std::string, std::string> ConfigManager::getDefaultConfig() {
     return {
-            {"inactivityTimeout", "3"}
+            {"inactivityTimeout", "60"}
     };
 }

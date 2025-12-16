@@ -41,7 +41,7 @@ void UI_Input::readSliderInput() {
                 }
                 else {
                     config1.saveConfig(std::to_string(inputValue));
-                    UI_Display::getInstance().setStatus("Aenderungen werden bei naechstem Systemstart übernommen");
+                    UI_Display::getInstance().setStatus("Aenderungen werden bei naechstem Systemstart uebernommen");
                 }
                 break;
 
