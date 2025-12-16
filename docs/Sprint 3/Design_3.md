@@ -4,7 +4,7 @@ Die folgenden Diagramme stellen die überarbeitete Version nach Sprint 2 da und 
 
 ## Klassendiagramm: 
 
-![Klassendiagramm](https://github.com/Nutellabrot06/Messerschaerfer-Schleifwinkelsteuerung/blob/main/docs/referenziert/Design/Klassendiagramm_Sprint_3.png)
+![Klassendiagramm](https://github.com/Nutellabrot06/Messerschaerfer-Schleifwinkelsteuerung/blob/main/docs/referenziert/Design/Klassendiagramm_Sprint_3_V2.png)
 
 ## Sequenzdiagramm:
 
